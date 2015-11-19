@@ -85,6 +85,9 @@
   padding: 0 4em 0 1em;
   box-sizing: border-box;
 }
+.ui-index .banner .searcher input::-webkit-input-placeholder {
+  color: #fff !important;
+}
 .ui-index .banner .searcher button {
   background: none;
   border: none;
@@ -116,8 +119,10 @@
   color: #16a09f;
 }
 .ui-index .icon-links .col-33 {
-  font-size: 2em;
   text-align: center;
+}
+.ui-index .icon-links .col-33 a {
+  color: #009999;
 }
 .ui-index .icon-links .col-33 i.iconfont {
   display: inline-block;
@@ -281,14 +286,14 @@
 }
 .ui-introduction .thumb {
   position: relative;
-  margin-bottom: 5em;
+  margin-bottom: 3em;
 }
 .ui-introduction .thumb i.iconfont {
   position: absolute;
   bottom: -1em;
   left: 50%;
   margin-left: -.5em;
-  font-size: 4em;
+  font-size: 2em;
   background-color: #00cccc;
   color: #fff;
   padding: .2em;
