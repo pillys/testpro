@@ -77,11 +77,12 @@
         </div>
         
         <div class="toolbar ui-pingjia-info-toolbar">
-          <form action="">
+          <!-- 套页面时，下面表单的 method 需要改成 post -->
+          <form action="./ajaxapi.json" method="get" class="ajax-submit">
             <div class="toolbar-inner">
               <i class="iconfont icon-left">&#xe605;</i>
               <button type="submit"><i class="iconfont icon-right">&#xe609;</i></button>
-              <input type="text" placeholder="写评论......" />
+              <input type="text" name="" placeholder="写评论......" />
             </div>
           </form>
         </div>
