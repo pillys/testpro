@@ -269,17 +269,26 @@
 .ui-pingjia-info-toolbar .toolbar-inner {
   position: relative;
 }
-.ui-pingjia-info-toolbar .toolbar-inner i.iconfont {
+.ui-pingjia-info-toolbar .toolbar-inner i.icon-left, .ui-pingjia-info-toolbar .toolbar-inner button {
   position: absolute;
-  left: .8em;
   top: .3em;
   font-size: 1.2em;
   color: #999999;
 }
+.ui-pingjia-info-toolbar .toolbar-inner i.iconfont.icon-left {
+  top: .3em;
+  left: .8em;
+}
+.ui-pingjia-info-toolbar .toolbar-inner button {
+  border: none;
+  background: none;
+  top: .1em;
+  right: .6em;
+}
 .ui-pingjia-info-toolbar .toolbar-inner input {
   border: 2px solid #00cccc;
   font-size: 1em;
-  padding: .2em .5em .2em 1.8em;
+  padding: .4em 2em .4em 1.8em;
   width: 100%;
   box-sizing: border-box;
   border-radius: 5px;
