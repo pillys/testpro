@@ -26,6 +26,19 @@ myApp.onPageInit('pingjia-info', function(page) {
   });
 });
 
+myApp.onPageInit('zhuisu-info', function(page) {
+  $$('.ui-zhuisu-info a.create-popup').on('click', function(e) {
+    var url = $$(this).data('href');
+    $$.ajax({
+      url: url,
+      success: function(data) {
+        myApp.popup(data);
+      }
+    });
+    e.preventDefault();
+  });
+});
+
 myApp.init();
 
 if (location.pathname === '/') {

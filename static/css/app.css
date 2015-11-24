@@ -312,5 +312,83 @@
   overflow: hidden;
   text-align: center;
 }
+.popup-zhuisu {
+  padding: 3em .5em 0 .5em;
+  background-color: transparent;
+}
+.popup-zhuisu .content-block {
+  position: relative;
+  margin: 0;
+  border: 3px solid #00cccc;
+  box-sizing: border-box;
+  border-radius: 5px 5px 0 0;
+  height: 100%;
+  background-color: #fff;
+}
+.popup-zhuisu .close-popup {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 3em;
+  width: 1em;
+  height: 1em;
+  line-height: .7em;
+  padding-right: .2em;
+  text-align: right;
+  box-sizing: border-box;
+  background-color: #00cccc;
+  color: #fff;
+  border-bottom-left-radius: 50%;
+}
+.popup-zhuisu .thumb {
+  margin-top: -40px;
+  text-align: center;
+}
+.popup-zhuisu .thumb img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 4px solid #00cccc;
+}
+.popup-zhuisu .popup-title {
+  text-align: center;
+  border-bottom: 1px solid #00cccc;
+  line-height: 2em;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+.popup-zhuisu .popup-list {
+  margin-left: 3em;
+}
+.popup-zhuisu .popup-list dl {
+  margin: 0;
+  padding-left: 2em;
+  border-left: 2px dotted #00cccc;
+}
+.popup-zhuisu .popup-list dl:last-child {
+  border-left-color: transparent;
+}
+.popup-zhuisu .popup-list dl dt {
+  position: relative;
+  color: #009999;
+  line-height: 3em;
+}
+.popup-zhuisu .popup-list dl dt em {
+  position: absolute;
+  left: -2.4em;
+  top: 0;
+  font-size: 1.5em;
+  font-style: normal;
+  color: #fff;
+  background-color: #00cccc;
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+}
+.popup-zhuisu .popup-list dl dd {
+  margin-left: 0;
+}
 
 /**/
