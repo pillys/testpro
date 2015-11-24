@@ -298,9 +298,9 @@
 .ui-introduction .thumb i.iconfont {
   position: absolute;
   bottom: -1em;
-  left: 50%;
+  left: 45%;
   margin-left: -.5em;
-  font-size: 2em;
+  font-size: 4em;
   background-color: #00cccc;
   color: #fff;
   padding: .2em;
@@ -390,4 +390,7 @@
   margin-left: 0;
 }
 
+.content-block p {
+  line-height:200%
+}
 /**/
