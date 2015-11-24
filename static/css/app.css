@@ -104,6 +104,7 @@
 .ui-index .content-main {
   position: relative;
   background: url(../images/index_bg.png) center bottom no-repeat;
+  background-size: 100% 100%;
   overflow: hidden;
 }
 .ui-index .icon-links {
