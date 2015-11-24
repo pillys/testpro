@@ -317,6 +317,7 @@
   position: relative;
   margin: 0;
   border: 3px solid #00cccc;
+  border-bottom: 0;
   box-sizing: border-box;
   border-radius: 5px 5px 0 0;
   height: 100%;
