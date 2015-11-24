@@ -106,6 +106,7 @@
   background: url(../images/index_bg.png) center bottom no-repeat;
   background-size: 100% 100%;
   overflow: hidden;
+  height: 100%;
 }
 .ui-index .icon-links {
   margin-top: 1em;
