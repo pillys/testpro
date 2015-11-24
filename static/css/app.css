@@ -103,19 +103,16 @@
 }
 .ui-index .content-main {
   position: relative;
+  background: url(../images/index_bg.png) center bottom no-repeat;
+  overflow: hidden;
 }
 .ui-index .icon-links {
-  position: absolute;
-  left: 0;
-  top: 2em;
-  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 2em;
 }
 .ui-index .footer {
-  position: absolute;
-  left: 0;
-  bottom: 1em;
+  margin-top: 2em;
   text-align: center;
-  width: 100%;
   color: #16a09f;
 }
 .ui-index .icon-links .col-33 {
